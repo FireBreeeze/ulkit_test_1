@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Document</title>
+
+   <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/uikit.min.css"/>
+        <link rel="stylesheet" href="css/custom.css"/>
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+</head>
+<body class="uk-height-1-1 uk-height-viewport">
+
+  <div class="uk-container uk-container-expand">
+    <nav class="uk-navbar-container uk-flex uk-flex-between">
+      <div class="uk-navbar-item">
+        <a class="uk-logo" href="#">Logo</a>
+      </div>
+      
+      <div class="uk-navbar-item">
+        <ul class="uk-navbar-nav">
+          <li>
+            <button class="uk-button uk-button-default" type="button">MENU1</button>
+              <div uk-dropdown="pos: bottom-center; animation: slide-top; animate-out: true; duration: 700">
+                <ul class="uk-nav uk-dropdown-nav">
+                  <li><a href="#"><em>NEW</em>Item</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+          </li>
+
+          <li>
+            <button class="uk-button uk-button-default" type="button">MENU2</button>
+              <div uk-dropdown="pos: bottom-center; animation: slide-top; animate-out: true; duration: 700">
+                <ul class="uk-nav uk-dropdown-nav">
+                  <li><a href="#">
+                    <span class="uk-label uk-label-danger">NEW</span>
+                    Item</a>
+                  </li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+          </li>
+
+          <li>
+            <button class="uk-button uk-button-default" type="button">MENU3</button>
+              <div uk-dropdown="pos: bottom-center; animation: slide-top; animate-out: true; duration: 700">
+                <ul class="uk-nav uk-dropdown-nav">
+                  <li class="uk-active"><a href="#">NEW</a></li>
+                  <li class="uk-alert-danger" uk-alert><a href="#">New</a></li>
+                  <li class="uk-nav-header">Items</li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="uk-navbar-item">
+        <button class="uk-button uk-button-default" type="button">
+          <span uk-icon="happy"></span>
+          <span>Иванов</span>
+        </button>
+              <div uk-dropdown="pos: bottom-center; animation: slide-top; animate-out: true; duration: 700">
+                <ul class="uk-nav uk-dropdown-nav">
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+                <button class="uk-button uk-button-danger">Выход</button>
+              </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="uk-section uk-section-default">
+    <div class="uk-container uk-container-custom"></div>
+  </div>
+  
+</body>
+</html>
